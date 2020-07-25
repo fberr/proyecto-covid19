@@ -9,6 +9,8 @@ Para su estructura visual se utilizó el framework Boostrap 4, solo su archivo c
 
 API: https://rapidapi.com/sanguineti/api/chile-coronapi1
 
+Página: https://fberr.github.io/proyecto-covid19/
+
 
 
 
