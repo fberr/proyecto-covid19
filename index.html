@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid api</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="icono"><img src="img/virus.png" alt=""></div>
+    <div class="container">
+        
+            
+                <h1 class="text-center mt-5 mb-5 display-4">Cifras oficiales<br> <strong>Covid-19 en Chile</strong> </h1>
+                
+                <div class="loading text-center"><div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                <div class="row box-cifras">
+                    <div class="col-md-6 cifras-nacional text-center">
+                        <h2 class="mb-3">Cifras a nivel nacional </h2>
+                        <h3>Casos Confirmados: <span id="confir-nac"></span></h3>
+                        <h3>Total Fallecimientos: <span id="total-fall"></span></h3>
+                        <p>Fecha última actualización: <span id="fecha-nac"></span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="mb-3">Comunas Región Metropolitana</h2>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Selecciona la comuna y revisa sus cifras</label>
+                            <select class="form-control" id="select-comuna">
+                            
+                            </select>
+                        </div>
+                        <div id="resultado"></div>
+
+                        <div id="confirmados"></div>
+                    </div>
+                </div>
+            
+        
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
